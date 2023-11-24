@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  background-image: linear-gradient(#033747, #012733);
+}
+body {
+  background-color: #333;
+}
+
+nav {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  background-image: linear-gradient(#033747, #012733);
+}
+
+nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+}
+nav li a {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #ff8c69;
+  transition: all 0.4s ease 0s;
+}
+
+.inner {
+  padding-top: 20px;
+}
+
+.inner .heading {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  padding-top: 80px;
+}
+
+.inner .heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100px;
+  background-color: #2ecc72;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+
+.skill-box {
+  padding: 1rem;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.img {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icon {
+  width: 50px;
+}
+
+.skill-title h3 {
+  color: #fff;
+  margin: 0.5rem;
+}
